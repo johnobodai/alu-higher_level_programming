@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-import random
+import random, math
 number = random.randint(-10000, 10000)
 
 
 def pnivel(arg):
-    x = arg % 10
+    x = int(math.remainder(arg, 10))
     if x > 5:
         print(f"Last digit of {arg} is {x} and is greater than 5")
     elif x == 0:
