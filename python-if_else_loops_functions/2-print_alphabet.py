@@ -3,4 +3,4 @@
 # @i - interger that runs through the ascii codes
 
 for i in range(97, 123):
-    print("{}".format(chr(i)),end='')
+    print("{}".format(chr(i)), end='')
