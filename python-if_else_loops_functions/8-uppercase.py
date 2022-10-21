@@ -8,7 +8,7 @@ def uppercase(str):
             __str = __str + chr(ord(i) - 32) 
         else:
             __str = __str + i
-    print("{}".format(__str), end='')
+    print("{}".format(__str), end=' ')
 
 
 #uppercase('helo workld')
