@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-str = input()
+
 def uppercase(str):
     __str = ''
     for i in str:
@@ -8,7 +8,7 @@ def uppercase(str):
             __str = __str + chr(ord(i) - 32) 
         else:
             __str = __str + i
-    print("{}".format(__str))
+    print("{}".format(__str), end='')
 
 
-uppercase(str)
+#uppercase('helo workld')
