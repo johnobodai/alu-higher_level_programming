@@ -9,3 +9,6 @@ def uppercase(str):
         else:
             __str = __str + i
     print("{}".format(__str))
+
+
+uppercase(str)
