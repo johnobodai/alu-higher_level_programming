@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 
-def islower(c):
-    """Checks if the given argument is lowercase"""
-    if ord('c') >= 97 and ord('c') <= 123 :
-        print("{} => lower")
-    else:
-        return False
+def uppercase(str):
+    __str = ''
+    for i in str:
+        if ord(i) >= 97 and ord(i) <= 122:
+            _str = __str + chr(ord(i) - 32) 
+        else:
+            __str = __str + i
