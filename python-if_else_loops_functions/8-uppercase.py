@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+# This code converts a lowwer case string to uppercase 
 
 def uppercase(str):
     for i in str:
@@ -7,6 +7,3 @@ def uppercase(str):
             i = chr(ord(i) - 32)
         print('{}'.format(i), end='')
     print('')
-
-
-#uppercase('helo workld')
