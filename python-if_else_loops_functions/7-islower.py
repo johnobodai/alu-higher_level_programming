@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-_alp = input()
-alp = ord(_alp)
+alq = input()
+alp = ord(alq)
 def islower(alp):
     """Checks if the given argument is lowercase"""
     if alp >= 97 and alp < 123:
-        print("{} => lower".format(_alp))
+        print("{} => lower".format(alq))
     else:
         print("not lower")
 
