@@ -5,8 +5,10 @@
 
 def print_last_digit(number):
     if number > 0:
-        print("{}".format(number % 10))
+        print(f"{number % 10:02d}")
     elif number < 0:
-        print("{}".format(-(-number % 10)))
+        print(f"{-(-number % 10):02d}")
     else:
-        print(0)
+        print(f"{number:02d}")
+
+print_last_digit(-45)
