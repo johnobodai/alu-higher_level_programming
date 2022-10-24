@@ -5,8 +5,8 @@
 
 def print_last_digit(int(number)):
     if number > 0:
-        print(f"{number % 10:1d}")
+        print(f"{number % 10}",end="")
     elif number < 0:
-        print(f"{-(-number % 10):1d}")
+        print(f"{-(-number % 10)",end="")
     else:
-        print(f"{number:1d}")
+        print(f"{number:}",end="")
