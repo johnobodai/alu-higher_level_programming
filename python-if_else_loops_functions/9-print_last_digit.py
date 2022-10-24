@@ -10,5 +10,3 @@ def print_last_digit(number):
         print(f"{-(-number % 10):02d}")
     else:
         print(f"{number:02d}")
-
-print_last_digit(-45)
