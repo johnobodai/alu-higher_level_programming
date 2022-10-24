@@ -5,8 +5,11 @@
 
 def print_last_digit(number):
     if number > 0:
-        print(f"{number % 10}",end="")
+        print(f"{number % 10}", end="")
     elif number < 0:
-        print(f"{-(-number % 10)",end="")
+        print(f"{-(-number % 10)}", end="")
     else:
-        print(f"{number:}",end="")
+        print(f"{number:}", end="")
+
+
+print_last_digit(98)
