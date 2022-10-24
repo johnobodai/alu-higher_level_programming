@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+# This function prints numbers from 1 to 100 separated by space
+# For multiples of three, five and five and three, Fizz, Buzz and FizzBuzz \
+# are printed respectively
+
 
 def fizzbuzz():
     for j in range(1, 101):
