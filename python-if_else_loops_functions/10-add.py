@@ -3,7 +3,7 @@
 
 def add(a, b):
     result = a + b
-    print(f"{result}")
-#    return (a + b)
+    print(f"{result}", end="")
+    return (a + b)
 
 # add(2, -5)
