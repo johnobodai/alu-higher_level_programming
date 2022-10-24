@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-import add_0
+from add_o import add
 
 add_0.add(1, 2)
