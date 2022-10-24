@@ -6,13 +6,15 @@
 def print_last_digit(number):
     if number > 0:
         print(f"{number % 10}", end="")
-        return(number % 10)
+        return (number % 10)
     elif number < 0:
         print(f"{(-number % 10)}", end="")
-        return((-number % 10))
+        return ((-number % 10))
     else:
         print(f"{number:}", end="")
-        return(number)
+        return (number)i
+
+
 '''
 This function can also be used
 
