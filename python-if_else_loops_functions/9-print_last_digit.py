@@ -8,8 +8,8 @@ def print_last_digit(number):
         print(f"{number % 10}", end="")
         return(number % 10)
     elif number < 0:
-        print(f"{-(-number % 10)}", end="")
-        return(-(-number % 10))
+        print(f"{(-number % 10)}", end="")
+        return((-number % 10))
     else:
         print(f"{number:}", end="")
         return(number)
