@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 
-str = "asdfhjkl"
 def remove_char_at(str, n):
-    
-    for i in range(len(str)):
+    _str = ''
+    for i in str:
         if i != n:
-            str = str.replace(str(n), '')
-        else:
-            pass
-    print(str)
+            _str = str[:n] + str[n+1:]
+    return _str
+
+
+# print(remove_char_at("qwerty", 1))
