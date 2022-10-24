@@ -3,7 +3,7 @@
 # @number: The number to be inputed by the user
 
 
-def print_last_digit(int(number)):
+def print_last_digit(number):
     if number > 0:
         print(f"{number % 10}",end="")
     elif number < 0:
