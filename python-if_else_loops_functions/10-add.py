@@ -6,4 +6,4 @@ def add(a, b):
     print(f"{result}")
     return (a + b)
 
-add(2, -5)
+# add(2, -5)
