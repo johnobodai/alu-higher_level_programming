@@ -12,4 +12,4 @@ def print_last_digit(number):
         print(f"{number:}", end="")
 
 
-print_last_digit(98)
+#print_last_digit(98)
