@@ -7,7 +7,7 @@ def remove_char_at(str, n):
             _str = str
         elif i != n:
             _str = str[:n] + str[n+1:]
-           return _str
+    return _str
 
 
 # print(remove_char_at("qwerty", -2))
