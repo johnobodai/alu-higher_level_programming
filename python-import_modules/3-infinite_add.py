@@ -6,4 +6,4 @@ if __name__ == "__main__":
         j = 0
         for i in kwds:
             j = (j + i)
-        return j
+        print(f"{j}")
