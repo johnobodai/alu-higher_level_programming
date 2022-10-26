@@ -2,7 +2,7 @@
 if __name__ == "__main__":
     import calculator_1
     import sys
-    if len(sys.argv) != 3:
+    if len(sys.argv) != 4:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         sys.exit(1)
     if sys.argv[2] != "+" or "-" or "*" or "/":
