@@ -10,5 +10,4 @@ if __name__ == "__main__":
         sys.exit(1)
     a = int(sys.argv[1])
     b = int(sys.argv[3])
-    result = 0
-    print(f"<{sys.argv}> <{sys.argv[2]}> <{argv}> = <{result}>")
+    print(f"<{a}> <{sys.argv[2]}> <{b}> = <{sys.argv[1] sys.argv[2] sys[3]>}")
