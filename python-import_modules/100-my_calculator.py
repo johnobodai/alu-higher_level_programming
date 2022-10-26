@@ -15,7 +15,7 @@ if __name__ == "__main__":
         result = add(a, b)
     elif sys.argv[2] == "-":
         result = sub(a, b)
-    elid sys.argv[2] == "*":
+    elif sys.argv[2] == "*":
         result = mul(a, b)
     elif sys.argv[2] == /:
         result = div(a, b)
