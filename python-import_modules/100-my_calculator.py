@@ -12,11 +12,11 @@ if __name__ == "__main__":
     b = int(sys.argv[3])
     result = 0
     if sys.argv[2] == "+":
-        result = a add b
+        result = add(a, b)
     elif sys.argv[2] == "-":
-        result = a sub b
+        result = sub(a, b)
     elid sys.argv[2] == "*":
-        result = a mul b
+        result = mul(a, b)
     elif sys.argv[2] == /:
-        result = a div b
+        result = div(a, b)
     print("<{}> <{}> <{}> = <{}>".format(a, sys.argv[2], b, result))
