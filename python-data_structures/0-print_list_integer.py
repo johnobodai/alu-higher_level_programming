@@ -4,7 +4,7 @@
 
 def pirnt_list_integers(my_list=[]):
     for i in my_list:
-        print('{}'.format(i))
+        print('{:d}'.format(i))
 
 # a = [1, 2, 3, 4]
 # pirnt_list_integers(a)
