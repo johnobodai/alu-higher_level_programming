@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-
+# Replace an element of a list at a specific position
+# @idx is the index to be replaced
+# @element is the new element to replace the element at index
 
 def replace_in_list(my_list, idx, element):
     new_list = []
