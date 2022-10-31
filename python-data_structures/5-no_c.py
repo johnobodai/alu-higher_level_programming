@@ -4,5 +4,5 @@
 def no_c(my_string):
     for i in my_string:
         if ord('i') == 99 or 67:
-            my_string.pop([i])
+            my_string.delete([i])
         return my_string
