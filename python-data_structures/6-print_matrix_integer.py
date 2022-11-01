@@ -3,10 +3,10 @@
 
 
 def print_matrix_integer(matrix=[[]]):
-    for i in matrix:
-        print('')
+    for i in matrix:      
         for j in i:
-            print(j,end=' ')
+            print("{}".format(j),end=' ')
+        print('\n',end='')
 
 
 matrix = [
