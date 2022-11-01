@@ -4,5 +4,15 @@
 
 def print_matrix_integer(matrix=[[]]):
     for i in matrix:
-        for i, j, k in i:
-            print('{:d} {:d} {:d}'.format(i, j, k))
+        print('')
+        for j in i:
+            print(j,end=' ')
+
+
+matrix = [
+        [1, 2, 3],
+        [4, 5, 6],
+        [7, 8, 9]
+    ]
+
+print_matrix_integer(matrix)
