@@ -17,11 +17,11 @@ def print_matrix_integer(matrix=[[]]):
 def print_matrix_integer(matrix=[[]]):
     for i in matrix:
         for j in i:
-            print("{:d}".format(j),end=' ')
-        print("")
+            print("{:d}".format(j),end='')
+        print('')
 
 
-'''
+
 matrix = [
         [1, 2, 3],
         [4, 5, 6],
@@ -29,4 +29,4 @@ matrix = [
     ]
 
 print_matrix_integer(matrix)
-'''
+
