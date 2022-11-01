@@ -8,7 +8,7 @@ def add_tuple(tuple_a=(), tuple_b=()):
             if tuple_a.index(j) == tuple_b.index(i):
                 k = ((i + j))
                 result = (result, k)
-    return
+    return result
 
 
 '''
