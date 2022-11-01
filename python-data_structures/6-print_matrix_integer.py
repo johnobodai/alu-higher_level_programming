@@ -23,7 +23,7 @@ def print_matrix_integer(matrix=[[]]):
                 print("{:d}".format(j),end='')
         print('')
 
-
+'''
 matrix = [
         [1, 2, 3],
         [4, 5, 6],
@@ -31,4 +31,4 @@ matrix = [
     ]
 
 print_matrix_integer(matrix)
-
+'''
