@@ -5,16 +5,14 @@ def add_tuple(tuple_a=(), tuple_b=()):
 
     for i in list(tuple_a):                               
         for j in list(tuple_b):
-            if tuple_a.index(j) == tuple_b.index(i):
+            if list(tuple_a).index(j) == list(tuple_b).index(i):
                 k = i + j
                 result = list().append(k)
-                 
-    return tuple(result)
+        print(result)
 
 
-'''
 tuple_a = (1, 89)
 tuple_b = (88, 11)
 new_tuple = add_tuple(tuple_a, tuple_b)
 print(new_tuple)
-'''
+
