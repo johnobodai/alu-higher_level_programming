@@ -23,8 +23,7 @@ def print_matrix_integer(matrix=[[]]):
             elif:
                 print("{:d}".format(j), end='')
                 print('')
-            else:
-                print(" ")
+
 '''
 matrix = [
         [1, 2, 3],
