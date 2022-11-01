@@ -2,12 +2,12 @@
 
 
 def add_tuple(tuple_a=(), tuple_b=()):
-    result = ()
+    result = []
     for i in tuple_a:
         for j in tuple_b:
             if tuple_a.index(j) == tuple_b.index(i):
                 k = ((i + j))
-                result = (k)
+                result = result.append(k)
     return result
 
 
