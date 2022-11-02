@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# Appends true if divisible by 2 else false
 
 
 def divisible_by_2(my_list=[]):
