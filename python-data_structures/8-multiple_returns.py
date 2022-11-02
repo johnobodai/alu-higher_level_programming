@@ -2,8 +2,10 @@
 
 
 def multiple_returns(sentence):
-    sen = list(sentence)
-    return len(sen), tuple(sentence[0])
+    if sentence == "":
+        return (0, None)
+    return (len(sentence), sentence[0])
 
 
-#print(multiple_returns('sentence'))
+
+#print(multiple_returns('Holberton'))
