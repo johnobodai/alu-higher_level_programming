@@ -2,5 +2,8 @@
 
 
 def multiple_returns(sentence):
-    return len(sentence)
-    return tuple(sentence.index(0))
+    sen = list(sentence)
+    return len(sen), tuple(sentence[0])
+
+
+#print(multiple_returns('sentence'))
