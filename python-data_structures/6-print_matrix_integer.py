@@ -2,14 +2,14 @@
 # Prints a matrix of integers
 
 
+
 def print_matrix_integer(matrix=[[]]):
-    for i in matrix:
-        for j in i:
-            if i.index(j) != (len(i)-1):
-                print("{:d}".format(j), end=' ')
-            else:
-                print("{:d}".format(j), end='')
-                print('')
+    for i in range(len(matrix)):
+        for j in range(len(matrix[i])):
+            print("{:d}".format(matrix[i][j]), end="")
+            if j != (len(matrix[i]) - 1):
+                print(" ", end="")
+        print("")
 
 '''
 matrix = [
