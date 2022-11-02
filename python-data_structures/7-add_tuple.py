@@ -2,10 +2,19 @@
 
 
 def add_tuple(tuple_a=(), tuple_b=()):
-    list_a = list(tuple_a)
-    list_b = list(tuple_b)
-    result = [x+y for x in list_a[:2] for y in list_b[:2] if list_a.index(x) == list_b.index(y)]
-    return (tuple(result))
+    """Add two tuples."""
+    if len(tuple_a) < 2:
+        if len(tuple_a) == 0:
+            tuple_a = 0, 0
+        else:
+            tuple_a = tuple_a[0], 0
+    if len(tuple_b) < 2:
+        if len(tuple_b) == 0:
+            tuple_b = 0, 0
+        else:
+            tuple_b = tuple_b[0], 0
+
+    return (tuple_a[0] + tuple_b[0], tuple_a[1] + tuple_b[1])
 
 '''
 tuple_a = (1, 2)
