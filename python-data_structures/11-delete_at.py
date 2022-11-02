@@ -1,12 +1,19 @@
 #!/usr/bin/python3
-
+# Deletes the item at a specific position in a list
+# @idx: the index to be deleted
 
 def delete_at(my_list=[], idx=0):
     if idx < 0 or idx > (len(my_list) - 1):
         return my_list
     else:
-        my_list = [i for i in my_list if i != my_list[idx]] 
+        del my_list[idx] 
         return my_list
 
 
-# print(delete_at([1, 2, 3, 4, 5], 3))
+'''
+my_list = [1, 2, 3, 4, 5]
+idx = 3
+new_list = delete_at(my_list, idx)
+print(new_list)
+print(my_list)
+'''
