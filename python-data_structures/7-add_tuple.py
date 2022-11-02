@@ -7,8 +7,9 @@ def add_tuple(tuple_a=(), tuple_b=()):
     result = [x+y for x in list_a for y in list_b if list_a.index(x) == list_b.index(y)]
     print(tuple(result))
 
-tuple_a = (1, 89)
-tuple_b = (88, 11)
+'''
+tuple_a = (1, 2)
+tuple_b = (1, 2)
 add_tuple(tuple_a, tuple_b)
-
+'''
 
