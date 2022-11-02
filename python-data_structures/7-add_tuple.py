@@ -2,17 +2,13 @@
 
 
 def add_tuple(tuple_a=(), tuple_b=()):
-
-    for i in list(tuple_a):                               
-        for j in list(tuple_b):
-            if list(tuple_a).index(j) == list(tuple_b).index(i):
-                k = i + j
-                result = list().append(k)
-        print(result)
-
+    list_a = list(tuple_a)
+    list_b = list(tuple_b)
+    result = [x+y for x in list_a for y in list_b if list_a.index(x) == list_b.index(y)]
+    print(tuple(result))
 
 tuple_a = (1, 89)
 tuple_b = (88, 11)
-new_tuple = add_tuple(tuple_a, tuple_b)
-print(new_tuple)
+add_tuple(tuple_a, tuple_b)
+
 
