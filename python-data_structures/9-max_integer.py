@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# Returns the maximum of a list of numbers
 
 
 def max_integer(my_list=[]):
@@ -7,7 +8,6 @@ def max_integer(my_list=[]):
         if i > maximum:
             maximum = i
     return maximum
-
 
 
 # a = [1, 90, 2, 13, 34, 5, -13, 3]
