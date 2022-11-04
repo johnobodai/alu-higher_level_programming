@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+# Converts a Roman numeral to an integer
+
 
 def roman_to_int(roman_string):
     if (not isinstance(roman_string, str) or
