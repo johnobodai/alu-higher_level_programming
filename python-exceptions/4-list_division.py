@@ -6,7 +6,7 @@ def list_division(my_list_1, my_list_2, list_lenght):
     for i in my_list_1:
         for j in my_list_2:
             try:
-                if my_list_1.index(i) = my_list_2.index(j):
+                if my_list_1.index(i) == my_list_2.index(j):
                     result = i / j
             except TypeError:
                 print("wrong type")
