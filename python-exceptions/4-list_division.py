@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-
+# Divides element by element 2 lists
+# Return: newlist
 
 def list_division(my_list_1, my_list_2, list_lenght):
     newlist = []
