@@ -2,5 +2,5 @@
 
 
 def raise_exception_msg(message=""):
-    raise NameErrori('Try again'):
+    raise NameError(message):
 
