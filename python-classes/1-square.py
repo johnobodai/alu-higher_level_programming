@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''Defines a square'''
+'''Define a square'''
 
 
 class Square():
@@ -9,4 +9,4 @@ class Square():
         ''' Initialize a new square.
         Arguments:
             size(int): The size of the new sqaure should be of type int '''
-        self.__self = size
+        self.__size = size
