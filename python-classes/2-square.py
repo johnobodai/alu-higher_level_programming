@@ -5,7 +5,7 @@
 class Square():
     ''' Class of square '''
 
-    def __init__(self, size):
+    def __init__(self, size=0):
         ''' Initialize a new square.
         Arguments:
             size(int): The size of the new sqaure should be of type int '''
