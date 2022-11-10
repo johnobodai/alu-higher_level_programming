@@ -1,13 +1,20 @@
 #!/usr/bin/python3
 """
-Documentation of mudule here
+Define a class Square
 
 """ 
 
 class Square:
-    """ Documentation of class here. """
+    """ An instance of a Square. """
 
     def __init__(self, size=0, position=(0,0)):
+        """
+        Initialiasation of a new square
+        Parameters:
+            size(int): The size of the new square.
+            position(int,int): The position of the new square.
+        
+        """
         self.__size = size
         self.__position = position
 
