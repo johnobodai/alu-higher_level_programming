@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-'''Define a class Square'''
- 
+"""Documentation of mudule here""" 
 
 class Square:
-    """ Represent a square. """
+    """ Documentation of class here. """
 
     def __init__(self, size=0, position=(0,0)):
         self.__size = size
