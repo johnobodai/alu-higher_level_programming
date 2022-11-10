@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-"""Documentation of mudule here""" 
+"""
+Documentation of mudule here
+
+""" 
 
 class Square:
     """ Documentation of class here. """
