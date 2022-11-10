@@ -39,7 +39,7 @@ class Square:
             print()
         else:
             for i in range(self.__size):
-                print(" ",end="" + "#"*self.__size)
+                print(" "*self.__position[1] + "#"*self.__size)
     
 
 # print(help(Square))
