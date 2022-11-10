@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-"""
-Define a class Square
-
-""" 
+"""Define a class Square""" 
 
 class Square:
     """ An instance of a Square. """
@@ -17,9 +14,6 @@ class Square:
         """
         self.__size = size
         self.__position = position
-
-    def area(self):
-        return (self.__size * self.__size)
 
     @property
     def size(self):
@@ -45,6 +39,10 @@ class Square:
                 or not all(isinstance(i,int) for i in value):
             raise TypeError("position must be a tuple of 2 positive integers")
         self.__position = value
+    
+    def area(self):
+        return (self.__size * self.__size)
+
 
     def my_print(self):
         if self.__size == 0:
