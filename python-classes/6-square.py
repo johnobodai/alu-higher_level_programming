@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-
-
-"""Define a class Square."""
+"""Define a class Square.
+:method: __init__, size, property
+"""
 
 
 class Square:
