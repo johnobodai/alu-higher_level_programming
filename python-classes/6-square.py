@@ -8,13 +8,13 @@ class Square:
     """ An instance of a Square. """
 
     def __init__(self, size=0, position=(0,0)):
-        """
-        Initialiasation of a new square
-        Parameters:
-            size(int): The size of the new square.
-            position(int,int): The position of the new square.
-        
-        """
+       
+       """Initialiasation of a new square
+        :param size: The size of the new square.
+        :type size: int
+        :param position: The position of the new square.
+        :type position: (int, int)
+       """
         self.size = size
         self.position = position
 
