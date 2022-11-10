@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""Define a class Square.This class can calculate the area of a square.
-:method: __init__, size, property.
-"""
+"""Define a class Square."""
 
 
 class Square:
