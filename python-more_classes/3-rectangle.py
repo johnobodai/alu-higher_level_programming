@@ -54,9 +54,10 @@ class Rectangle:
         """Return # representation of reactangle"""
         if self.__width == 0 or self.__height == 0:
             return
+        str_ = []
         for i in range(self.__height):
             # print("#" * self.__width)
-            [i.append("#" for j in range(self.__width))]
+            [str_.append("#" for j in range(self.__width))]
             if i != self.__height -1:
-                i.append("\n")
+                str_.append("\n")
         return ("".join(rect))
