@@ -72,3 +72,25 @@ class Rectangle:
         rect += ", " + str(self.__height) + ")"
         return (rect)
 # comment here
+
+
+#my_rectangle = Rectangle(2, 4)
+#print(str(my_rectangle))
+#print("--")
+#print(my_rectangle)
+#print("--")
+#print(repr(my_rectangle))
+#print("--")
+#print(hex(id(my_rectangle)))
+#print("--")
+
+# create new instance based on representation
+#new_rectangle = eval(repr(my_rectangle))
+#print(str(new_rectangle))
+#print("--")
+#print(new_rectangle)
+#print("--")
+#print(repr(new_rectangle))
+#print("--")
+#print(hex(id(new_rectangle)))
+#print("--")
