@@ -6,3 +6,7 @@ Tests here:
     >>> a = MyList()
     >>> a
     []
+
+    >>> a.append(1)
+    >>> a
+    [1]
