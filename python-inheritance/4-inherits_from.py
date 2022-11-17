@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """A function that that checks for inheritance"""
 
+
 def inherits_form(obj, a_class):
     """Checks for inheritance
     :param obj: the object to check
