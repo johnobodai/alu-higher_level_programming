@@ -1,1 +1,3 @@
-The 'Print Sorted List' module
+First import ''MyList'' from the ''1-my_list'' module:
+
+    >>> MyList = __import__("1-my_list").MyList
