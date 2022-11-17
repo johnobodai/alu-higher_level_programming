@@ -25,6 +25,6 @@ Tests here:
     >>> my_list.print_sorted()
     [-1, 1, 2, 3, 4, 5]
               
-    >>> my_list = []
-    >>> my_list.print_sorted()
+    >>> my_list1 = MyList()
+    >>> my_list1.print_sorted()
     []
