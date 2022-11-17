@@ -6,6 +6,12 @@ class BaseGeometry:
     """Reprsent base geometry."""
     
     def __init__(self, width, height):
+        """Initialisation of a new Rectangle.
+        :param width: the width of the initialised rectangle
+        :type int:
+        :param height: the height of the initialised rectangle
+        :type int
+        """
         self.__width = width
         self.__height = height
         self.integer_validator("height", height)
