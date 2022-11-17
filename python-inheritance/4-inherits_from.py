@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""A function that that checks for inheritance"""
+"""Defines if an inherited class checking function"""
 
 
 def inherits_form(obj, a_class):
