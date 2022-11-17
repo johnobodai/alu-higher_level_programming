@@ -3,7 +3,7 @@
 
 
 def inherits_form(obj, a_class):
-    """Checks for inheritance
+    """Checks for inheritance.
     :param obj: the object to check
     :type a_class: the class to check if the inherita form
     :returns: True if the object is an insatance of a class
