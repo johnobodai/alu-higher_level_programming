@@ -9,6 +9,7 @@ def inherits_form(obj, a_class):
     :returns: True if the object is an insatance of a class
               else False
     """
+
     if issubclass(type(obj), a_class) and type(obj) != a_class:
         return True
     return False
