@@ -2,7 +2,7 @@
 """Defines a function that writes a string to a text file."""
 
 
-def write_file(filename=", text="""):
+def write_file(filename="", text=""):
     """Writes a string to a text and returns num of char.
     :param filename: the name of the file to be writen into
     :type(filename) str:
@@ -11,4 +11,4 @@ def write_file(filename=", text="""):
     :returns: the number of char writeen
     """
     with open(filename, mode='w', encoding='utf') as f:
-        return len(text)
+        return f.write(text)
