@@ -1,7 +1,7 @@
 # Python - Input/Output
 In this project I learnt to read/write files and working with json files in python
 
-~~ Resources
+## Resources
 
  - 7.2. Reading and Writing Files(https://alu-intranet.hbtn.io/rltoken/n4cEqOMm5PdqDE26lyWcDw)
  - 8.7. Predefined Clean-up Actions(https://alu-intranet.hbtn.io/rltoken/PhUB_UH5Ry2tGGK2VGJNGA)
