@@ -12,3 +12,6 @@ def write_file(filename="", text=""):
     """
     with open(filename, mode='w', encoding='utf') as f:
         return f.write(text)
+
+
+#print(write_file("asdf", "this is what i want to check for"))
