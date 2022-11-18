@@ -11,4 +11,4 @@ def write_file(filename=", text="""):
     :returns: the number of char writeen
     """
     with open(filename, mode='w', encoding='utf') as f:
-        return f.write(text)
+        return len(text)
