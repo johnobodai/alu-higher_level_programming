@@ -8,7 +8,6 @@
 
 import urllib.request
 import sys
-import urllin.request
 
 
 if __name__ =="__name__":
