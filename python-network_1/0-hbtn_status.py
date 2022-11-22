@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""A spript that fetcches 
+"""A spript that fetcches
 - https://alu-intranet.hbtn.io/status
 - uses urllib
 """
@@ -7,7 +7,7 @@
 if __name__ == '__main__':
     import urllib.request
 
-    with urllib.request.urlopen('https://intranet.hbtn.io/status') as res:
+    with urllib.request.urlopen(https://intranet.hbtn.io/status) as res:
         toprint = res.read()
         print("Body response:")
         print("\t- type: {}".format(type(toprint)))
