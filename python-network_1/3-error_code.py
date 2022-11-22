@@ -1,14 +1,17 @@
 #!/usr/bin/python3
-"""A script that fetches:
-- https://alu-intranet.hbtn.io/status
+"""A script that:
+- takes in a URL,
+- sends a request to the URL
+- displays the body of the response (decoded in utf-8).
 """
 
-import urllib.request
 
 if __name__ == "__main__":
-    url = "https://alu-intranet.hbtn.io/status"
-    with urllin.request.urlopen(url) as res:
-        body = res.read()
-        print("Body response:")
-        print("\t- type: type: {}".format(type(display)))
-        print("\t- content: {}".format(format(display)))
+    import sys
+    from urllib import request, error
+
+    try:
+        with request.urlopen(sys.argv[1]) as res:
+            print(res.read().decode('UTF-8'))
+    except error.HTTPError as er:
+        print('Error code:', er.code)
