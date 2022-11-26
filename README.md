@@ -16,6 +16,6 @@ This repo contains all the projects that I have done in the alu curriculum on Hi
 | [python-network_0](python-network_0)|
 | [python-exceptions](python-exceptions)| 
 | [python-network_1](python-network_1)|
-| [SQL_introduction](SQL_introduction)|
+| [SQL_introduction](SQL_introduction)|Introduction to SQL|
 | [SQL_more_queries](SQL_more_queries)|
 
