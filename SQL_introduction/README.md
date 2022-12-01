@@ -1,4 +1,4 @@
-# 0x0D-SQL_introduction
+# SQL_introduction
 
 In this project, I learnt the following:
 - What’s a database
