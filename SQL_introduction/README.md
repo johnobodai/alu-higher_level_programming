@@ -10,7 +10,7 @@
 - [MySQL Cheat Sheet](https://alu-intranet.hbtn.io/rltoken/mNcGgvhZNG0dbFe23E-EjA)
 - [MySQL 8.0 SQL Statement Syntax](https://dev.mysql.com/doc/refman/8.0/en/sql-statements.html)
 
-In this project, I learnt the following:
+### In this project, I learnt the following:
 - What’s a database
 - What’s a relational database
 - What does SQL stand for
