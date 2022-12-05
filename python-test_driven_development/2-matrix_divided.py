@@ -1,1 +1,28 @@
 #!/usr/bin/python3
+"""This function divides all element of a matrix and returns a new matrix"""
+
+
+def matrix_divided(matrix, div):
+    """Divides all element of a matrix
+
+    :param matrix: The matrix(list of list) whose element are to be divided by div
+    :type matrix: list
+    :param div: The value that divides each element in the matrix
+    :type div: int
+    :returns: A new matrix (list of list), derived form the division
+    :rtype: list(list of lists)
+    :raise: TypeError if div is not an int
+    :raise: TypeError if matrix is not a list of lists
+    :raise: TypeError if each row of the matrix is not of the same size
+    """
+    if (not(isinstance(matrix, list ))):
+        raise TypeError("matrix must be a matrix (list of lists) of integers/floats")
+    if (not(isinstance(div, int)) and not(isinstance(div, float))):
+        raise TypeError("div must be a number")
+    if div == 0:
+        raise ZeroDivisionError("dividion by zero")
+    if not all(len(row) == len(matrix[0]) for row in matrix):
+            raise TypeError("Each row of the matrix must have the same size")
+    if not all(isinstance(row, list) for row in matix) or not all(isinstance(i, int) for i in [col for row in matrix for col in row]) or not all isinstance(i, float) for i in [col for row in matrix for col in row]:
+        raise TypeError("matrix must be a matrix (list of lists) of integer/floats")
+    return([list(map(lambda x: round(x / div, 2), row)) for row in matrix])
