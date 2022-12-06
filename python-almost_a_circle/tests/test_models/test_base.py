@@ -144,3 +144,6 @@ class TestBase_instantiation(unitest.TestCase)
 
     def test_to_json_string_empty_list(self):
         self.assertEqual("[]", Base.to_json_string([]))
+
+    def test_to_json_string_none(self):
+        self.assertEqual("[]", Base.to_json_string(None))
