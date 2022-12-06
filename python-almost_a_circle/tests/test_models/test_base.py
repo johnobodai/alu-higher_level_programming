@@ -110,3 +110,11 @@ class TestBase_instantiation(unitest.TestCase)
     def test_two_args(self):
         with self.assertRaises(TypeError):
             Base(1, 2)
+
+    class TestBase_to_json_string(unittest.TestCase):
+    """Unittests for testing to_json_string method of Base class."""
+
+    def test_to_json_string_rectangle_type(self):
+        r = Rectangle(10, 7, 2, 8, 6)
+        self.assertEqual(str, type(Base.to_json_string([r.to_dictionary()])))
+
