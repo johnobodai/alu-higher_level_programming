@@ -151,3 +151,7 @@ class TestBase_instantiation(unitest.TestCase)
     def test_to_json_string_no_args(self):
         with self.assertRaises(TypeError):
             Base.to_json_string()
+
+    def test_to_json_string_more_than_one_arg(self):
+        with self.assertRaises(TypeError):
+            Base.to_json_string([], 1)
