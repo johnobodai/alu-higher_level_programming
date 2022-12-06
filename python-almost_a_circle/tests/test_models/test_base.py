@@ -135,3 +135,9 @@ class TestBase_instantiation(unitest.TestCase)
     def test_to_json_string_square_one_dict(self):
         s = Square(10, 2, 3, 4)
         self.assertTrue(len(Base.to_json_string([s.to_dictionary()])) == 39)
+
+    def test_to_json_string_square_two_dicts(self):
+        s1 = Square(10, 2, 3, 4)
+        s2 = Square(4, 5, 21, 2)
+        list_dicts = [s1.to_dictionary(), s2.to_dictionary()]
+        self.assertTrue(len(Base.to_json_string(list_dicts)) == 78)
