@@ -71,4 +71,11 @@ class TestBase_instantiation(unitest.TestCase)
     def test_complex_id(self):
         self.assertEqual(complex(5), Base(complex(5)).id)
 
+    def test_dict_id(self):
+        self.assertEqual({"a": 1, "b": 2}, Base({"a": 1, "b": 2}).id)
 
+    def test_bool_id(self):
+        self.assertEqual(True, Base(True).id)
+
+    def test_list_id(self):
+        self.assertEqual([1, 2, 3], Base([1, 2, 3]).id)
