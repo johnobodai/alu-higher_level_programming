@@ -18,3 +18,8 @@ from models.square import Square
 
 class TestBase_instantiation(unitest.TestCase)
     """Unittests for testing instantiation of the Base class,"""
+
+    def test_no_arg(self):
+        b1 = Base()
+        b2 = Base()
+        self.assertEqual(b1.id, b2.id - 1)
