@@ -4,8 +4,8 @@
 
 def say_my_name(first_name, last_name=""):
     """Print the inputed name
-    
-    :param: first_name 
+
+    :param: first_name
     :type first_name: string
     :raise: TypeError if first_name not string
     :param: last_name
