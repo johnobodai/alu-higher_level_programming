@@ -5,7 +5,8 @@
 def matrix_divided(matrix, div):
     """Divides all element of a matrix
 
-    :param matrix: The matrix(list of list) whose element are to be divided by div
+    :param matrix: The matrix(list of list) whose element are to be \n
+    divided by div
     :type matrix: list
     :param div: The value that divides each element in the matrix
     :type div: int
