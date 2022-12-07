@@ -3,7 +3,7 @@
 
 
 def matrix_mul(m_a, m_b):
-    """Multiply two matrices.
+    """Multiply two matrices by each other if not empty.
 
     :param m_a: The first matrix
     :type m_a: list of list of ints/floats
