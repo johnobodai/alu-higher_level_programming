@@ -3,13 +3,11 @@
 
 
 def text_indentation(text):
-    """Print text with two new lines after each '.', '?', and ':'.
-
-    Args:
-        text (string): The text to print.
-    Raises:
-        TypeError: If text is not a string.
-    """
+    """A function that prints two new lines after the char ...
+        :param text:
+        :type text:; string
+        :raise TypeError: if text is not a string
+        """
     if not isinstance(text, str):
         raise TypeError("text must be a string")
 
