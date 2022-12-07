@@ -3,13 +3,15 @@
 
 
 def say_my_name(first_name, last_name=""):
-    """Print a name.
-
-    Args:
-        first_name (str): The first name to print.
-        last_name (str): The last name to print.
-    Raises:
-        TypeError: If either of first_name or last_name are not strings.
+    """Print the inputed name
+    
+    :param: first_name 
+    :type first_name: string
+    :raise: TypeError if first_name not string
+    :param: last_name
+    :type last_name: string
+    :raises: TypeError if last_name not string
+    :returns: none
     """
     if not isinstance(first_name, str):
         raise TypeError("first_name must be a string")
