@@ -39,7 +39,8 @@ class Square(Rectangle):
                 - 2nd argument represents size attribute
                 - 3rd argument represents x attribute
                 - 4th argument represents y attribute
-            **kwargs (dict): New key/value pairs of attributes.
+        :param **kwargs: New key/value pairs of attributes.
+        :type **kwargs: dict
         """
         if args and len(args) != 0:
             a = 0
