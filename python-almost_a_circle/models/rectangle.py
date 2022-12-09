@@ -64,4 +64,3 @@ class Rectangle(Base):
 r2 = Rectangle(10, 2, 0, 0, 12)
 print(r2.id)
 """
-
