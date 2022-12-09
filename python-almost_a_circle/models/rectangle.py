@@ -2,11 +2,12 @@
 """Defines a rectangle class"""
 from models.base import Base
 
-class Rectangle(Base()):
+class Rectangle(Base):
     """Represent a rectangle."""
     
     def __init__(self, width, height, x=0, y=0, id=None):
-        """Initialise a new Rectangle
+        """Initialise a new Rectangle.
+
         :param x: The x coordinate of the new Rectangle
         :type x: int
         :param y: The y coordinate of the new Rectangle
