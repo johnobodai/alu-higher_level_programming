@@ -2,9 +2,10 @@
 """Defines a rectangle class"""
 from models.base import Base
 
+
 class Rectangle(Base):
     """Represent a rectangle."""
-    
+
     def __init__(self, width, height, x=0, y=0, id=None):
         """Initialise a new Rectangle.
 
@@ -26,7 +27,7 @@ class Rectangle(Base):
         def width(self):
             """Set the width of the Rectangle."""
             return self.__width
-        
+
         @width.setter
         def width(self, value):
             self.__width = value
