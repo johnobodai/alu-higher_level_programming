@@ -14,7 +14,9 @@ class Square(Rectangle):
         :param x: The x coordinate of the new Square.
         :type x: int
         :param y: The y coordinate of the new Square.
-        :type    id (int): The identity of the new Square.
+        :type y: int
+        :param id: The identity of the new Square.
+        :type id: int
         """
         super().__init__(size, size, x, y, id)
 
