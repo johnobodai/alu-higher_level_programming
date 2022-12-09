@@ -234,4 +234,7 @@ class TestBase_instantiation(unitest.TestCase)
         with self.assertRaises(TypeError):
             Square.save_to_file([], 1)
 
-    
+class TestBase_from_json_string(unittest.TestCase):
+    """Unittests for testing from_json_string method of Base class."""
+
+
