@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-"""This module is the of the Rectangle"""
-import base.py
+"""Defines a rectangle class"""
+from models.base import Base
 
 class Rectangle(base.Base()):
     """Represent a rectangle."""
