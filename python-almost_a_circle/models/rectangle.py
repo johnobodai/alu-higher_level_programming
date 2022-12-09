@@ -98,8 +98,8 @@ class Rectangle(Base):
     def update(self, *args, **kwargs):
         """Update the Rectangle.
 
-        :params:
-            *args (ints): New attribute values.
+        :params *args: New attribute values.
+        :type *args: ints
                 - 1st argument represents id attribute
                 - 2nd argument represents width attribute
                 - 3rd argument represent height attribute
