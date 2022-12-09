@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """Defines a rectangle class"""
-from models.base import Base
+from base import Base
 
 
 class Rectangle(Base):
@@ -58,3 +58,10 @@ class Rectangle(Base):
         @y.setter
         def y(self, value):
             self.__y = value
+
+
+"""
+r2 = Rectangle(10, 2, 0, 0, 12)
+print(r2.id)
+"""
+
