@@ -7,15 +7,15 @@ class Rectangle(Base):
     """Represent a rectangle."""
 
     def __init__(self, width, height, x=0, y=0, id=None):
-        """Initialise a new Rectangle.
+        """Initialize a new Rectangle.
 
-        :param x: The x coordinate of the new Rectangle
-        :type x: int
-        :param y: The y coordinate of the new Rectangle
-        :type y: int
-        :param id: The identity of the new Rectangle
-        :type id: int
-        :Raises:
+        Args:
+            width (int): The width of the new Rectangle.
+            height (int): The height of the new Rectangle.
+            x (int): The x coordinate of the new Rectangle.
+            y (int): The y coordinate of the new Rectangle.
+            id (int): The identity of the new Rectangle.
+        Raises:
             TypeError: If either of width or height is not an int.
             ValueError: If either of width or height <= 0.
             TypeError: If either of x or y is not an int.
@@ -98,15 +98,14 @@ class Rectangle(Base):
     def update(self, *args, **kwargs):
         """Update the Rectangle.
 
-        :params *args: New attribute values.
-        :type *args: ints
+        Args:
+            *args (ints): New attribute values.
                 - 1st argument represents id attribute
                 - 2nd argument represents width attribute
                 - 3rd argument represent height attribute
                 - 4th argument represents x attribute
                 - 5th argument represents y attribute
-       :params **kwargs: New key/value pairs of attributes.
-       :type **kwargs: dict
+            **kwargs (dict): New key/value pairs of attributes.
         """
         if args and len(args) != 0:
             a = 0

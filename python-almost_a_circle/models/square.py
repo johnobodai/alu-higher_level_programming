@@ -9,20 +9,17 @@ class Square(Rectangle):
     def __init__(self, size, x=0, y=0, id=None):
         """Initialize a new Square.
 
-        :param size: The size of the new Square.
-        :type size: int
-        :param x: The x coordinate of the new Square.
-        :type x: int
-        :param y: The y coordinate of the new Square.
-        :type y: int
-        :param id: The identity of the new Square.
-        :type id: int
+        Args:
+            size (int): The size of the new Square.
+            x (int): The x coordinate of the new Square.
+            y (int): The y coordinate of the new Square.
+            id (int): The identity of the new Square.
         """
         super().__init__(size, size, x, y, id)
 
     @property
     def size(self):
-        """Get the size of the Square."""
+        """Get/set the size of the Square."""
         return self.width
 
     @size.setter
@@ -33,14 +30,13 @@ class Square(Rectangle):
     def update(self, *args, **kwargs):
         """Update the Square.
 
-        :param *args: New attribute values.
-        :type *args: int
+        Args:
+            *args (ints): New attribute values.
                 - 1st argument represents id attribute
                 - 2nd argument represents size attribute
                 - 3rd argument represents x attribute
                 - 4th argument represents y attribute
-        :param **kwargs: New key/value pairs of attributes.
-        :type **kwargs: dict
+            **kwargs (dict): New key/value pairs of attributes.
         """
         if args and len(args) != 0:
             a = 0
