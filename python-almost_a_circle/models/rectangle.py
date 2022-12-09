@@ -108,6 +108,7 @@ class Rectangle(Base):
        :params **kwargs: New key/value pairs of attributes.
        :type **kwargs: dict
         """
+
         if args and len(args) != 0:
             a = 0
             for arg in args:
