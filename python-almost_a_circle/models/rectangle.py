@@ -15,8 +15,7 @@ class Rectangle(Base):
         :type y: int
         :param id: The identity of the new Rectangle
         :type id: int
-        """
-        Raises:
+        :Raises:
             TypeError: If either of width or height is not an int.
             ValueError: If either of width or height <= 0.
             TypeError: If either of x or y is not an int.
