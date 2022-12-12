@@ -47,3 +47,22 @@ class Base:
                jsonfile.write("[]")
            else:
                list_dicts = [o.to_dictionary() for o in list_objs]
+               jsonfile.write(Base.to_json_string(list_dicts))
+
+    @staticmethod
+    def from_json_string(json_string):
+        """Return the of a json string
+
+        :param json_string: a json str reps of a list of dicts
+        :type json_string: string
+        :returns:an empty list if str is none or empty
+                    else the python list representation by json_string
+        """
+        if dictionary and dictionary != {}:
+            if cls.__name__ == "Rectangle":
+                new = cls(1, 1)
+            else:
+                new = cls(1)
+            new.update(**dictionary)
+            return new
+            
