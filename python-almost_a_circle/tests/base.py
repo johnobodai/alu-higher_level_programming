@@ -67,3 +67,10 @@ class Base:
             return new
     
     @classmethod
+    def load_from_file(cls):
+        """Return a list of classes instantiated from a file of Json strings.
+        Reads form `,cls.__name__..json`.
+        :returns: if the file does not exist then an empty list
+                  else a list of instantiated classes#
+        """
+
