@@ -35,3 +35,15 @@ class Base:
         return json.dumps(list_dictionaries)
 
     @classmethod
+    def save_to_file(cls, list_objs):
+        """Write the json of a list to obj to a file.
+       
+       :param list_objs: A list of inherited base instance
+       :type list_objs: list of list
+       """
+       filename = cls.__name__ + ".json"
+       with open(filename, "w") as jsonfile:
+           if list_objs is None:
+               jsonfile.write("[]")
+           else:
+               list_dicts = [o.to_dictionary() for o in list_objs]
