@@ -23,4 +23,15 @@ class Base:
         else Base.__nb_objects += 1
         self.id = Base.__nb_objects
 
-    @
+    @staticmethod
+    def to_json_string(list_dictionaries):
+        """Return the json of a list of dicts
+
+        :param list_dictionaries:A list dic
+        :type list_dictionaries: list of list
+        """
+        if list_dictionaries is None or list_dictionaries == []:
+            return "[]"
+        return json.dumps(list_dictionaries)
+
+    @classmethod
