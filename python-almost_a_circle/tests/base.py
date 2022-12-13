@@ -152,4 +152,5 @@ class Base:
             turt.showturtle()
             turt.up()
             turt.goto(sq.x, sq.y)
+            turt.down()
 
