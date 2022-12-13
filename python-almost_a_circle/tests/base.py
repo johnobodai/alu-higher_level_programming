@@ -151,5 +151,5 @@ class Base:
         for sq in list_squares:
             turt.showturtle()
             turt.up()
-
+            turt.goto(sq.x, sq.y)
 
