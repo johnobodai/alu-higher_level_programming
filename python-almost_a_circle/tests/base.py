@@ -160,3 +160,5 @@ class Base:
                 turt.left(90)
             turt.hideturtle()
 
+        turtle.exitonclick()
+
