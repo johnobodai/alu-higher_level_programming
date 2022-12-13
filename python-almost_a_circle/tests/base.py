@@ -80,3 +80,21 @@ class Base:
             return [cls.create(**d) for d in list_dicts]
         except IOError:
             return []
+
+    @classmethod
+    def save_to_file_cvs(cls, list_objs):
+        """Write the csv serialization of a listw of objects to a file
+        :param list objs: A list of inherited Base instance.
+        """
+    filename = cls.__name__ + ".csv"
+    with open(filename, "w", newline="") as csvfile:
+        if list_objs is None or list_objs == []:
+            csvfile.write("[]")
+        else:
+            if cls.__name__ == "Rectangle":
+                fieldnames = ["id", "width", "height", "x", "y"]
+            else:
+                fieldnames = ["id", "size", "x", "y"]
+            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+            for obj in list_objs:
+                writer. writterow(obj,to_dictionaty())
