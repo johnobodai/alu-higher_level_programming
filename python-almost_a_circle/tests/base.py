@@ -155,5 +155,6 @@ class Base:
             turt.down()
             for i in range(2):
                 turt.forward(sq.width)
-
+                turt.left(90)
+                turt.forward(sq.height)
 
