@@ -73,4 +73,10 @@ class Base:
         :returns: if the file does not exist then an empty list
                   else a list of instantiated classes#
         """
-
+    filename = str(cls.__name__) + ".json"
+    try:
+        with open(filename, "r") as jsonfile:
+            list_dicts = Base.from_json_string(jsonfile.read())
+            return [cls.create(**d) for d in list_dicts]
+        except IOError:
+            return []
