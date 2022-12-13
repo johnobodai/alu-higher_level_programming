@@ -121,3 +121,11 @@ class Base:
                 return [cls.create(**d) for d in list_dicts]
             except IOError:
                 return []
+
+    @staticmethod
+    def draw(list_rectangles, list_squares):
+        """Draw Rectangles and Squared using the turtle module.
+        :params list_rectangle: A list of Rectangle objects to draw.
+        :type list_rectangle: list
+        :param list_squares: A list of Square objects to draw.
+        """
