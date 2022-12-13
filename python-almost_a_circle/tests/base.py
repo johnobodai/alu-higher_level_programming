@@ -157,4 +157,5 @@ class Base:
                 turt.forward(sq.width)
                 turt.left(90)
                 turt.forward(sq.height)
+                turt.left(90)
 
