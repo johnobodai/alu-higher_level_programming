@@ -129,3 +129,4 @@ class Base:
         :type list_rectangle: list
         :param list_squares: A list of Square objects to draw.
         """
+        turt =turtle.Turtle()
