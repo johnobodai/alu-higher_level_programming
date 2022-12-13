@@ -140,3 +140,5 @@ class Base:
             turt.up()
             turt.goto(rect.x, rect.y)
             turn.down()
+            for i in range(2)
+                turt.forword(rect.width)
