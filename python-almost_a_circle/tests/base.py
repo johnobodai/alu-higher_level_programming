@@ -136,4 +136,7 @@ class Base:
         
         turt.color("#ffffff")
         for rect in list_rectangles:
-
+            turt.showturtle()
+            turt.up()
+            turt.goto(rect.x, rect.y)
+            turn.down()
