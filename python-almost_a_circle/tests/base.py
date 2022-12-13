@@ -158,4 +158,5 @@ class Base:
                 turt.left(90)
                 turt.forward(sq.height)
                 turt.left(90)
+            turt.hideturtle()
 
