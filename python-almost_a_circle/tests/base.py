@@ -142,3 +142,7 @@ class Base:
             turn.down()
             for i in range(2)
                 turt.forword(rect.width)
+                turt.left(90)
+                turt.forward(rect.height)
+                turt.left(90)
+            turt.hideturtle()
