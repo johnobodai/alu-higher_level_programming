@@ -188,3 +188,11 @@ class TestBase_instantiation(unitest.TestCase)
         Rectangle.save_to_file([r1, r2])
         with open("Rectangle.json", "r") as f:
             self.assertTrue(len(f.read()) == 105)
+
+    def test_save_to_file_one_square(self):
+        s = Square(10, 7, 2, 8)
+        Square.save_to_file([s])
+        with open("Square.json", "r") as f:
+            self.assertTrue(len(f.read()) == 39)
+
+
