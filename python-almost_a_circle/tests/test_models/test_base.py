@@ -220,3 +220,8 @@ class TestBase_instantiation(unitest.TestCase)
         Square.save_to_file(None)
         with open("Square.json", "r") as f:
             self.assertEqual("[]", f.read())
+
+    def test_save_to_file_empty_list(self):
+        Square.save_to_file([])
+        with open("Square.json", "r") as f:
+            self.assertEqual("[]", f.read())
