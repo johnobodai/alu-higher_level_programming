@@ -176,4 +176,10 @@ class TestBase_instantiation(unitest.TestCase)
         except IOError:
             pass
 
+    def test_save_to_file_one_rectangle(self):
+        r = Rectangle(10, 7, 2, 8, 5)
+        Rectangle.save_to_file([r])
+        with open("Rectangle.json", "r") as f:
+            self.assertTrue(len(f.read()) == 53)
+
 
