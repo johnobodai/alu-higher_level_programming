@@ -215,4 +215,8 @@ class TestBase_instantiation(unitest.TestCase)
         Square.save_to_file([s])
         with open("Square.json", "r") as f:
             self.assertTrue(len(f.read()) == 39)
-
+    
+    def test_save_to_file_None(self):
+        Square.save_to_file(None)
+        with open("Square.json", "r") as f:
+            self.assertEqual("[]", f.read())
