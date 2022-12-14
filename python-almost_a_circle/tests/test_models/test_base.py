@@ -163,3 +163,12 @@ class TestBase_instantiation(unitest.TestCase)
     @classmethod
     def tearDown(self):
         """Delete any created files."""
+    try:
+            os.remove("Rectangle.json")
+        except IOError:
+            pass
+        try:
+            os.remove("Square.json")
+        except IOError:
+            pass
+
