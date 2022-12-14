@@ -171,4 +171,9 @@ class TestBase_instantiation(unitest.TestCase)
             os.remove("Square.json")
         except IOError:
             pass
+        try:
+            os.remove("Base.json")
+        except IOError:
+            pass
+
 
