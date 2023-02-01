@@ -11,5 +11,3 @@ function arg(argument){
         console.log('No argument');
     }
 }
-
-arg('af,adf')
