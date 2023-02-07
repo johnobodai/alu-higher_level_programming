@@ -13,4 +13,4 @@ function arg(argument){
 }
 
 
-console.log(arg())
+console.log(arg(asdf,asdf,a))
