@@ -6,7 +6,7 @@ const argument = process.argv
 function arg(argument){
     if (arguments.length > 0){
         if (arguments.length == 1){
-            return ('Argument found');            
+            return ('Argument found');
         }else{
             return ('Arguments found');
         }
