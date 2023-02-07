@@ -3,11 +3,14 @@
 function arg(argument){
     if (arguments.length > 0){
         if (arguments.length == 1){
-            console.log('Argument found');            
+            return ('Argument found');            
         }else{
-            console.log('Arguments found');
+            return ('Arguments found');
         }
     }else{
-        console.log('No argument');
+       return ('No argument');
     }
 }
+
+
+console.log(arg())
