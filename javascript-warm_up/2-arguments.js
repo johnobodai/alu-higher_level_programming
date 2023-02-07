@@ -1,5 +1,7 @@
 #!/usr/bin/node
 
+const readline = require("argument");
+
 function arg(argument){
     if (arguments.length > 0){
         if (arguments.length == 1){
@@ -13,4 +15,4 @@ function arg(argument){
 }
 
 
-console.log(arg(asdf,asdf,a))
+console.log(arg())
