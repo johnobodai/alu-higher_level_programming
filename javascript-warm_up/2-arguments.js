@@ -1,7 +1,8 @@
 #!/usr/bin/node
 
-const readline = require("argument");
-
+// const readline = require("argument");
+/*
+const argument = process.argv
 function arg(argument){
     if (arguments.length > 0){
         if (arguments.length == 1){
@@ -14,5 +15,8 @@ function arg(argument){
     }
 }
 
-
 console.log(arg())
+*/
+
+const count = process.argv.length;
+console.log(count === 2 ? 'No argument' : count === 3 ? 'Argument found' : 'Arguments found');
