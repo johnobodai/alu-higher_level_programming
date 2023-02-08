@@ -3,6 +3,6 @@
  * and logs then on the console
  */
 
-for (const line of ['C is fun', 'Python is cool', 'Javascript is amazing']) {
-  console.log(line);
+for (const object of ['C is fun', 'Python is cool', 'Javascript is amazing']) {
+  console.log(object);
 }
