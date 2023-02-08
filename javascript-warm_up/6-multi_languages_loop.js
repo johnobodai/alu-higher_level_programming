@@ -1,5 +1,5 @@
 #!/usr/bin/node
-/* this code loops through the dictionary or objects 
+/* this code loops through the dictionary or objects
  * and logs then on the console
  */
 
