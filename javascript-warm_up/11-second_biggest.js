@@ -1,5 +1,10 @@
 #!/usr/bin/node
 
+/* A script that searches the second 
+ * biggest integer in the lost of 
+ * argument
+ */
+
 if (process.argv.length <= 3) {
   console.log(0);
 } else {
