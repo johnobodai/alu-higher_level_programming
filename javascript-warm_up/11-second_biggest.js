@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-/* A script that searches the second 
+/* A script that searches the second
  * biggest integer in the lost of 
  * argument
  */
