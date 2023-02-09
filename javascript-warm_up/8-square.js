@@ -2,12 +2,12 @@
 
 const integerNum = Math.floor(Number(process.argv[2]));
 if (isNaN(integerNum)) {
-    console.log('Missing size');
+  console.log('Missing size');
 } else {
     for (let r = 0; r < integerNum; r++) {
-        let row = '';
+      let row = '';
         for (let c = 0; c < integerNum; c++) {
-            row += 'X';
+          row += 'X';
         }
         console.log(row);
     }
