@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
 /* A script that searches the second
- * biggest integer in the lost of 
+ * biggest integer in the lost of
  * argument
  */
 
