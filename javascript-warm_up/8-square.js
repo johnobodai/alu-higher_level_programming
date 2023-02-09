@@ -9,6 +9,6 @@ if (isNaN(integerNum)) {
     for (let c = 0; c < integerNum; c++) {
       row += 'X';
     }
-        console.log(row);
+    console.log(row);
   }
 }
